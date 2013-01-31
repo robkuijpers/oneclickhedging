@@ -1,0 +1,40 @@
+body {
+	margin:0;padding:0;
+}
+
+body>section { 
+	display:inline-block;
+	box-sizing:border-box;
+	float:left;
+	width:50%;
+	height:50%;
+}
+
+body>section:nth-child(1) { 
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+
+body>section:nth-child(2) { 
+	border-bottom:1px solid #ccc;
+}
+
+body>section:nth-child(3) { 
+	border-right:1px solid #ccc;
+}
+
+#handle { 
+	position:absolute;top:50%;
+	left:50%;
+	margin-top:-16px;
+	margin-left:-18px;
+}
+
+section#nw .ui-resizable-se { 
+	bottom:-16px;
+	cursor:move;
+	height:32px;
+	right:-16px;
+	width:32px;
+	background:none;
+}

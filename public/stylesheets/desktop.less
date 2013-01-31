@@ -1,0 +1,103 @@
+/* 
+ * Responsive design
+ *
+ * Desktop: > 1024 * 780
+ */
+
+@media screen and (min-width: 1024px) {
+	
+	.header {
+		background-color: #eeeeee;
+		height: 50px;
+	}
+	
+	.header-logo {
+	  color: @raboblauw;
+	  font-size: 2.0em;
+	  font-style: italic;
+	  margin: 20px 0 0 20px;
+	}
+		
+	.banner {
+		background-image: '/images/office-building.jpg';
+		height: 300px;
+	}
+	
+	.banner-image {
+	    height: 300px;
+	    width: 940px; 
+	}
+	
+	.login-box {
+		position: absolute;
+		top: 180px;
+		z-index: 1;
+		background-color: @orange;
+		box-shadow: 0 0 10px 5px #aaaaaa;	
+		border-radius: 5px;
+	}
+	
+	.login-box-lhs {
+	  float: left; 
+	  padding: 15px;
+	}
+
+	.login-box-rhs {
+	  float: right; 
+	  padding: 15px;
+	}
+	
+	.login-box-title {
+	    color: white; 
+	    font-size: 1.2em; 
+	    line-height: 25px;
+	}
+
+	.login-box-subtitle {
+	    color: white; 
+	    font-size: 1.5em; 
+	    line-height: 40px;
+	    font-style: italic;
+	}
+	
+	.login-box-image {
+	    color: white; 
+	    line-height: 40px;
+	}
+	
+	.tile {
+		margin: 20px;
+		background-color: #dddddd;
+		border-radius: 5px;
+		height: 60px;
+		box-shadow: 0 0 0 1px #bbbbbb, 0 0 0 3px white, 0 0 10px 5px #aaaaaa;
+		padding-right: 0px;
+		position: relative;
+		text-align: left;  	
+	}
+
+	.tile:hover {
+		background-color: #cccccc;
+		box-shadow: 0 0 0 1px #bbbbbb, 0 0 0 3px white, 0 0 8px 3px #bbbbbb;
+		cursor: pointer;
+	}
+	
+	.tile-icon {
+		width: 40px;
+		height: 40px;
+		padding-left: 20px;		
+	}
+		
+	.tile-text {
+		color: @raboblauw;
+	    margin-left: 20px;
+		line-height: 60px;
+		font-size: 1.5em;		
+	}
+				
+	.footer {
+		background-color: @darkmidblue;
+		height: 25px;	
+	}
+		
+}
